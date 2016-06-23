@@ -16,18 +16,13 @@
     <repository>
       <id>nexus</id>
       <name>Nexus Releases</name>
-      <url>http://localhost:8081/nexus/service/local/staging/deploy/maven2</url>
+      <url>http://45.55.192.146:8081/repository/kavya-maven</url>
     </repository>
     <snapshotRepository>
       <id>nexus</id>
       <name>Nexus Snapshot</name>
-      <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+      <url>http://45.55.192.146:8081/repository/maven-snapshots</url>
     </snapshotRepository>
-    <site>
-      <id>nexus</id>
-      <name>Nexus Sites</name>
-      <url>dav:http://localhost:8081/nexus/content/sites/site/</url>
-    </site>
   </distributionManagement>
   <build>
     <plugins>
